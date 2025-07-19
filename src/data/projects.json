@@ -5,7 +5,7 @@
     "description": "The Netflix Clone is a responsive streaming web app that mimics the look and feel of the original Netflix platform. It allows users to browse, search, and preview movie/show thumbnails. Built with modern tech like React and styled-components (although the movies are linked from my local computer, server to host the movies is not added).",
     "tags": ["React", "Firebase", "Tailwind CSS"],
     "image": "/placeholder.svg",
-    "liveUrl": "https://your-netflix-clone.com",
+    "liveUrl": "",
     "githubUrl": "https://github.com/NinadAmane/netflix-clone",
     "icon": "Globe"
   },
@@ -21,7 +21,7 @@
       "YT-DLP"
     ],
     "image": "/placeholder.svg",
-    "liveUrl": "",
+    "liveUrl": "https://mp3audiosummarizerninad.streamlit.app/",
     "githubUrl": "https://github.com/NinadAmane/YouTube_Video_Summarizer",
     "icon": "Code"
   },
