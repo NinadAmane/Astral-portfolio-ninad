@@ -1,73 +1,73 @@
-# Welcome to your project
+# 🧠 Ninad Amane - Developer Portfolio
 
-## Project info
+Welcome to the source code of my personal developer portfolio — a sleek, responsive, and modern website built with performance and aesthetics in mind.
 
-**URL**: https://lovable.dev/projects/52206f6b-5987-4df7-aba5-432486b06b72
+## 🌐 Live Site
 
-## How can I edit this code?
+**URL**: [https://ninadamane.vercel.app](https://ninadamane.vercel.app)
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- ⚛️ Built with **React** + **TypeScript**
+- ⚡ Fast & optimized with **Vite**
+- 🎨 Designed using **Tailwind CSS** and **shadcn/ui**
+- 📱 Fully responsive across all devices
+- 🧩 Modular structure with reusable components
+- 🌙 Dark theme with interactive animations
+- 🧠 Showcases my projects, skills, contact info, and resume
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/52206f6b-5987-4df7-aba5-432486b06b72) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+| Technology   | Purpose                      |
+| ------------ | ---------------------------- |
+| React        | Frontend framework           |
+| TypeScript   | Static typing                |
+| Vite         | Fast build tool + dev server |
+| Tailwind CSS | Utility-first CSS framework  |
+| shadcn/ui    | UI components                |
+| Lucide Icons | Icon library                 |
+| Vercel       | Deployment platform          |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📂 Project Structure
 
-Follow these steps:
+├── public/ # Static assets (favicon, resume, images)
+├── src/
+│ ├── components/ # Reusable UI components
+│ ├── data/ # JSON for project data
+│ ├── pages/ # Main page components (Index.tsx, etc.)
+│ └── main.tsx # App entry point
+├── index.html # HTML template
+├── tailwind.config.ts # Tailwind config
+└── vite.config.ts # Vite config
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚧 Local Development
 
-# Step 3: Install the necessary dependencies.
-npm i
+> Prerequisites: [Node.js](https://nodejs.org/) and npm installed
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+# Clone the repository
+git clone https://github.com/NinadAmane/Astral-portfolio-ninad.git
+
+# Navigate into the project
+cd Astral-portfolio-ninad
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
+
+Visit http://localhost:5XXX to view the portfolio locally.
+
+
+
+
+
+© 2024 Ninad Amane. Built with 💻 and ☕
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/52206f6b-5987-4df7-aba5-432486b06b72) and click on Share -> Publish.
-
-## Can I connect a custom domain to my project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
