@@ -4,7 +4,7 @@ Welcome to the source code of my personal developer portfolio — a sleek, respo
 
 ## 🌐 Live Site
 
-**URL**: [https://ninadamane.vercel.app](https://ninadamane.vercel.app)
+**URL**: [https://astral-portfolio-ninad.vercel.app/]
 
 ## 🚀 Features
 
@@ -32,20 +32,6 @@ Welcome to the source code of my personal developer portfolio — a sleek, respo
 
 ---
 
-## 📂 Project Structure
-
-├── public/ # Static assets (favicon, resume, images)
-├── src/
-│ ├── components/ # Reusable UI components
-│ ├── data/ # JSON for project data
-│ ├── pages/ # Main page components (Index.tsx, etc.)
-│ └── main.tsx # App entry point
-├── index.html # HTML template
-├── tailwind.config.ts # Tailwind config
-└── vite.config.ts # Vite config
-
----
-
 ## 🚧 Local Development
 
 > Prerequisites: [Node.js](https://nodejs.org/) and npm installed
@@ -64,10 +50,6 @@ npm install
 npm run dev
 
 Visit http://localhost:5XXX to view the portfolio locally.
-
-
-
-
+```
 
 © 2024 Ninad Amane. Built with 💻 and ☕
-```
