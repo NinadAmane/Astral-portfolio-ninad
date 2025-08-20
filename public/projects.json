@@ -1,43 +1,48 @@
-
 [
   {
     "id": "1",
-    "title": "E-Commerce Platform",
-    "description": "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and inventory management.",
-    "tags": ["React", "Node.js", "PostgreSQL", "Stripe"],
+    "title": "AI Course Builder Platform",
+    "description": "A web app that generates structured learning paths from any topic you enter. It creates an AI-generated course outline, fetches YouTube video lectures for each module, and gives quick reference links—all in one place.",
+    "tags": ["MERN", "Vite", "Gemini API", "YouTube Data API","TailwindCSS"],
     "image": "/placeholder.svg",
-    "liveUrl": "https://example.com",
-    "githubUrl": "https://github.com/username/ecommerce",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/NinadAmane/ai-course-builder",
     "icon": "Globe"
   },
   {
     "id": "2",
-    "title": "Task Management App",
-    "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    "tags": ["React", "TypeScript", "Firebase", "Material-UI"],
+    "title": "MP3 Audio Summarizer",
+    "description": "A Streamlit web app that summarizes MP3 Audios by extracting transcripts and generating concise summaries using AI models like Google's Gemini.",
+    "tags": [
+      "Python",
+      "Whisper",
+      "Streamlit",
+      "Google Gemini 1.5 Flash",
+      "YT-DLP"
+    ],
     "image": "/placeholder.svg",
-    "liveUrl": "https://example.com",
-    "githubUrl": "https://github.com/username/taskapp",
+    "liveUrl": "https://mp3audiosummarizerninad.streamlit.app/",
+    "githubUrl": "https://github.com/NinadAmane/YouTube_Video_Summarizer",
     "icon": "Code"
   },
   {
     "id": "3",
-    "title": "Portfolio Website",
-    "description": "A responsive portfolio website showcasing projects and skills. Built with modern web technologies and optimized for performance.",
-    "tags": ["React", "Tailwind CSS", "Vite", "Vercel"],
+    "title": "Cafe Management System",
+    "description": "The Café Management System is a sleek web app designed to manage daily café operations with ease. It lets users track orders, manage customers, and update menu items — all from a clean, intuitive dashboard. Built for speed and simplicity, it's ideal for small café businesses seeking a digital upgrade.",
+    "tags": ["Vite", "TypeScript", "React", "shadcn-ui", "Tailwind CSS"],
     "image": "/placeholder.svg",
-    "liveUrl": "https://example.com",
-    "githubUrl": "https://github.com/username/portfolio",
-    "icon": "Palette"
+    "liveUrl": "https://daily-grind-central.lovable.app/",
+    "githubUrl": "https://github.com/NinadAmane/cafe-management-system",
+    "icon": "Database"
   },
   {
     "id": "4",
-    "title": "Data Analytics Dashboard",
-    "description": "An interactive dashboard for data visualization and analytics. Features real-time charts, filtering, and export capabilities.",
-    "tags": ["React", "D3.js", "Python", "FastAPI"],
+    "title": "Weather App",
+    "description": "This Weather App is a sleek, responsive web application that provides real-time weather updates with advanced features. Users can search for cities with autocomplete suggestions, view current weather conditions, AQI with health advice, UV index, and sunrise/sunset times. It also displays 24-hour and 7-day forecasts using Chart.js graphs, with dynamic backgrounds that change based on the weather and time of day.",
+    "tags": ["HTML", "CSS", "JavaScript", "Weather api"],
     "image": "/placeholder.svg",
-    "liveUrl": "https://example.com",
-    "githubUrl": "https://github.com/username/dashboard",
-    "icon": "Database"
+    "liveUrl": "https://ninadamane.github.io/weather-app/",
+    "githubUrl": "https://github.com/NinadAmane/weather-app",
+    "icon": "Cloud"
   }
 ]
