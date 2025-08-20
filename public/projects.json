@@ -3,7 +3,7 @@
     "id": "1",
     "title": "AI Course Builder Platform",
     "description": "A web app that generates structured learning paths from any topic you enter. It creates an AI-generated course outline, fetches YouTube video lectures for each module, and gives quick reference links—all in one place.",
-    "tags": ["MERN", "Vite", "Gemini API", "YouTube Data API","TailwindCSS"],
+    "tags": ["MERN", "Vite", "Gemini API", "YouTube Data API", "TailwindCSS"],
     "image": "/placeholder.svg",
     "liveUrl": "",
     "githubUrl": "https://github.com/NinadAmane/ai-course-builder",
@@ -11,8 +11,8 @@
   },
   {
     "id": "2",
-    "title": "MP3 Audio Summarizer",
-    "description": "A Streamlit web app that summarizes MP3 Audios by extracting transcripts and generating concise summaries using AI models like Google's Gemini.",
+    "title": "Youtube Video Summarizer",
+    "description": "A Streamlit web app that summarizes Youtube Videos by extracting transcripts and generating concise summaries using AI models like Google's Gemini.",
     "tags": [
       "Python",
       "Whisper",
@@ -21,8 +21,8 @@
       "YT-DLP"
     ],
     "image": "/placeholder.svg",
-    "liveUrl": "https://mp3audiosummarizerninad.streamlit.app/",
-    "githubUrl": "https://github.com/NinadAmane/YouTube_Video_Summarizer",
+    "liveUrl": "https://youtubevideosummarizer-ninad.streamlit.app/",
+    "githubUrl": "https://github.com/NinadAmane/Youtube_video_summarizer.git",
     "icon": "Code"
   },
   {
