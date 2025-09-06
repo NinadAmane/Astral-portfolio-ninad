@@ -119,7 +119,7 @@ const Portfolio = () => {
                 ))}
               </div>
               <Button
-                onClick={() => window.open("public/RESUME(4.2).pdf", "_blank")}
+                onClick={() => window.open("/Ninad-Amane-FlowCV-RESUME.pdf", "_blank")}
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white border-0"
               >
                 <Download className="w-4 h-4 mr-2" />
