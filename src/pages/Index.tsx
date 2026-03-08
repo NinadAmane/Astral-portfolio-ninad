@@ -51,13 +51,12 @@ const PORTFOLIO_CONFIG = {
     "TensorFlow",
     "Neural Networks",
     "Feature Engineering",
-    "Text Embeddings",
     "Model Deployment",
     "Sentence Transformers",
     "LLM Integration",
-    "Prompt Engineering",
     "Groq API",
     "Llama 3",
+    "LangGraph",
     "NumPy",
     "Pandas",
     "Matplotlib",
@@ -72,6 +71,7 @@ const PORTFOLIO_CONFIG = {
     "Docker",
     "CI/CD",
     "Cloud Computing",
+    "Github Actions",
   ],
 
   // Social Media Links - Update with your actual profiles
