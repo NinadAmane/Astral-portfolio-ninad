@@ -1,48 +1,66 @@
 [
   {
     "id": "1",
-    "title": "AI Course Builder Platform",
-    "description": "A web app that generates structured learning paths from any topic you enter. It creates an AI-generated course outline, fetches YouTube video lectures for each module, and gives quick reference links—all in one place.",
-    "tags": ["MERN", "Vite", "Gemini API", "YouTube Data API", "TailwindCSS"],
-    "image": "/placeholder.svg",
-    "liveUrl": "",
-    "githubUrl": "https://github.com/NinadAmane/ai-course-builder",
-    "icon": "Globe"
-  },
-  {
-    "id": "2",
-    "title": "Youtube Video Summarizer",
-    "description": "A Streamlit web app that summarizes Youtube Videos by extracting transcripts and generating concise summaries using AI models like Google's Gemini.",
+    "title": "Ghost Coder | Multi-Agent GitHub Issue Resolver",
+    "description": "Built an autonomous multi-agent engineering system using LangGraph and LangChain that automates the Git issue-to-Pull Request pipeline. Engineered a polyglot Docker sandbox with a reflective QA loop and integrated Groq with an automated GitOps pipeline using PyGithub.",
     "tags": [
+      "LangGraph",
+      "LangChain",
+      "ChromaDB",
       "Python",
-      "Whisper",
-      "Streamlit",
-      "Google Gemini 1.5 Flash",
-      "YT-DLP"
+      "Docker",
+      "Groq"
     ],
     "image": "/placeholder.svg",
-    "liveUrl": "https://youtubevideosummarizer-ninad.streamlit.app/",
-    "githubUrl": "https://github.com/NinadAmane/Youtube_video_summarizer.git",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/NinadAmane/Ghost-Coder",
     "icon": "Code"
   },
   {
-    "id": "3",
-    "title": "Cafe Management System",
-    "description": "The Café Management System is a sleek web app designed to manage daily café operations with ease. It lets users track orders, manage customers, and update menu items — all from a clean, intuitive dashboard. Built for speed and simplicity, it's ideal for small café businesses seeking a digital upgrade.",
-    "tags": ["Vite", "TypeScript", "React", "shadcn-ui", "Tailwind CSS"],
+    "id": "2",
+    "title": "Hybrid NLP Log Classification System",
+    "description": "Created an NLP pipeline using semantic embeddings to automate log classification and intelligent incident routing across services. Improved classification accuracy by 40% through structured LLM-based inference and reduced manual triage effort by 30%.",
+    "tags": [
+      "NLP",
+      "LLM",
+      "Semantic Embeddings",
+      "Python"
+    ],
     "image": "/placeholder.svg",
-    "liveUrl": "https://daily-grind-central.lovable.app/",
-    "githubUrl": "https://github.com/NinadAmane/cafe-management-system",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/NinadAmane/logs_classification_nlp_project",
     "icon": "Database"
   },
   {
-    "id": "4",
-    "title": "Weather App",
-    "description": "This Weather App is a sleek, responsive web application that provides real-time weather updates with advanced features. Users can search for cities with autocomplete suggestions, view current weather conditions, AQI with health advice, UV index, and sunrise/sunset times. It also displays 24-hour and 7-day forecasts using Chart.js graphs, with dynamic backgrounds that change based on the weather and time of day.",
-    "tags": ["HTML", "CSS", "JavaScript", "Weather api"],
+    "id": "3",
+    "title": "Neonatal Sepsis Detection System",
+    "description": "Architected a decentralized Federated Learning framework with Flower for neonatal sepsis detection, ensuring patient data privacy. Developed PyTorch Transformer models for time-series analysis and built a Streamlit dashboard to visualize local training metrics.",
+    "tags": [
+      "Federated Learning",
+      "PyTorch",
+      "Flower",
+      "Streamlit",
+      "Transformers"
+    ],
     "image": "/placeholder.svg",
-    "liveUrl": "https://ninadamane.github.io/weather-app/",
-    "githubUrl": "https://github.com/NinadAmane/weather-app",
+    "liveUrl": "https://neonatal-sepsis.streamlit.app/",
+    "githubUrl": "https://github.com/NinadAmane/Neonatal-Sepsis",
+    "icon": "Globe"
+  },
+  {
+    "id": "4",
+    "title": "GenAI-Powered Course Builder Platform",
+    "description": "Designed a full-stack course generator powered by the Gemini API to create structured, topic-specific learning modules. Aggregated relevant lecture resources using the YouTube Data API and managed persistent user data with MongoDB to store learning paths.",
+    "tags": [
+      "MERN",
+      "Gemini API",
+      "YouTube Data API",
+      "MongoDB",
+      "React"
+    ],
+    "image": "/placeholder.svg",
+    "liveUrl": "https://ai-course-builder-ninad.vercel.app/",
+    "githubUrl": "https://github.com/NinadAmane/ai-course-builder",
     "icon": "Cloud"
   }
 ]

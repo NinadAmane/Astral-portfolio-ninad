@@ -20,7 +20,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
+				sans: ['Outfit', 'sans-serif'],
+				syne: ['Syne', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
