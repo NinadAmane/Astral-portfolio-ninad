@@ -2,14 +2,15 @@
   {
     "id": "1",
     "title": "Ghost Coder | Multi-Agent GitHub Issue Resolver",
-    "description": "Built an autonomous multi-agent engineering system using LangGraph and LangChain that automates the Git issue-to-Pull Request pipeline. Engineered a polyglot Docker sandbox with a reflective QA loop and integrated Groq with an automated GitOps pipeline using PyGithub.",
+    "description": "Built an autonomous multi-agent engineering system using LangGraph and LangChain that automates the Git issue-to-Pull Request pipeline. Engineered a  Docker sandbox with a reflective QA loop and integrated Groq with an automated GitOps pipeline using PyGithub.",
     "tags": [
       "LangGraph",
-      "LangChain",
-      "ChromaDB",
+      "PyGithub",
       "Python",
       "Docker",
-      "Groq"
+      "Groq",
+      "Streamlit",
+      "Agentic Systems"
     ],
     "image": "/placeholder.svg",
     "liveUrl": "",
@@ -20,12 +21,7 @@
     "id": "2",
     "title": "Hybrid NLP Log Classification System",
     "description": "Created an NLP pipeline using semantic embeddings to automate log classification and intelligent incident routing across services. Improved classification accuracy by 40% through structured LLM-based inference and reduced manual triage effort by 30%.",
-    "tags": [
-      "NLP",
-      "LLM",
-      "Semantic Embeddings",
-      "Python"
-    ],
+    "tags": ["NLP", "LLM", "Semantic Embeddings", "Python"],
     "image": "/placeholder.svg",
     "liveUrl": "",
     "githubUrl": "https://github.com/NinadAmane/logs_classification_nlp_project",
@@ -51,13 +47,7 @@
     "id": "4",
     "title": "GenAI-Powered Course Builder Platform",
     "description": "Designed a full-stack course generator powered by the Gemini API to create structured, topic-specific learning modules. Aggregated relevant lecture resources using the YouTube Data API and managed persistent user data with MongoDB to store learning paths.",
-    "tags": [
-      "MERN",
-      "Gemini API",
-      "YouTube Data API",
-      "MongoDB",
-      "React"
-    ],
+    "tags": ["MERN", "Gemini API", "YouTube Data API", "MongoDB", "React"],
     "image": "/placeholder.svg",
     "liveUrl": "https://ai-course-builder-ninad.vercel.app/",
     "githubUrl": "https://github.com/NinadAmane/ai-course-builder",

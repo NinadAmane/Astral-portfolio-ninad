@@ -21,7 +21,10 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { useProjects } from "@/hooks/useProjects";
 import { PillBase } from "@/components/ui/3d-adaptive-navigation-bar";
 import { GradientButton } from "@/components/ui/gradient-button";
-import { HeroGeometric, ElegantShape } from "@/components/ui/shape-landing-hero";
+import {
+  HeroGeometric,
+  ElegantShape,
+} from "@/components/ui/shape-landing-hero";
 import { OrbitingSkills } from "@/components/ui/orbiting-skills";
 import { motion } from "framer-motion";
 import { Circle, Code2 } from "lucide-react";
@@ -35,7 +38,7 @@ const PORTFOLIO_CONFIG = {
   email: "ninadamane@gmail.com", // Updated email
 
   // Profile Photo - Updated with your photo
-  profilePhoto: "/lovable-uploads/c3d7913b-63e4-41dd-bc7f-7dbb40d7cf9a.png", // Your uploaded photo
+  profilePhoto: "public/Ninad Profile Photo Best_cropped.png", // Your uploaded photo
 
   // Skills and Technologies - Customize this array with your skills
   skills: [
@@ -134,7 +137,10 @@ const Portfolio = () => {
       <div className="fixed inset-0 bg-gradient-to-br from-indigo-500/[0.05] via-transparent to-rose-500/[0.05] blur-3xl pointer-events-none z-0" />
 
       {/* Texture overlay */}
-      <div className="animated-bg z-0 hidden md:block" style={{ opacity: 0.4 }}></div>
+      <div
+        className="animated-bg z-0 hidden md:block"
+        style={{ opacity: 0.4 }}
+      ></div>
 
       {/* Foreground Content */}
       <div className="relative z-10">
@@ -222,22 +228,22 @@ const Portfolio = () => {
                   better version of myself every day.
                 </p>
                 <p className="text-lg text-white/80 leading-relaxed">
-                  I’ve co-authored research papers, built industry grade projects,
-                  and am constantly thinking about how to deliver real value
-                  through software, not just pretty UIs, but solutions that
-                  solve actual problems.
+                  I’ve co-authored research papers, built industry grade
+                  projects, and am constantly thinking about how to deliver real
+                  value through software, not just pretty UIs, but solutions
+                  that solve actual problems.
                 </p>
               </div>
               <div className="relative">
                 <div className="glass-card p-8 rounded-2xl hover-glow">
                   <div className="text-center">
-                    <Avatar className="w-48 h-48 mx-auto mb-6 border-4 border-white/10">
+                    <Avatar className="w-56 h-56 mx-auto mb-6 border-4 border-white/10">
                       <AvatarImage
                         src={PORTFOLIO_CONFIG.profilePhoto}
                         alt={PORTFOLIO_CONFIG.name}
                         className="object-cover"
                       />
-                      <AvatarFallback className="bg-[#121212] text-white/80 text-4xl">
+                      <AvatarFallback className="bg-[#121212] text-white/80 text-5xl">
                         {PORTFOLIO_CONFIG.name
                           .split(" ")
                           .map((n) => n[0])
@@ -490,7 +496,9 @@ const Portfolio = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-5xl md:text-7xl font-syne font-bold mb-8 tracking-tighter uppercase bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-white/90 to-rose-300">
-                Let's Create<br />Together
+                Let's Create
+                <br />
+                Together
               </h2>
               <p className="text-lg text-white/70 mb-12 max-w-2xl mx-auto">
                 I'm always open to new opportunities and interesting projects.
@@ -519,11 +527,11 @@ const Portfolio = () => {
                 >
                   <a
                     href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
-                      PORTFOLIO_CONFIG.email
+                      PORTFOLIO_CONFIG.email,
                     )}&su=${encodeURIComponent(
-                      "Inquiry from Portfolio"
+                      "Inquiry from Portfolio",
                     )}&body=${encodeURIComponent(
-                      `Hi ${PORTFOLIO_CONFIG.name},\n\nI came across your portfolio and would like to connect.\n\nBest,`
+                      `Hi ${PORTFOLIO_CONFIG.name},\n\nI came across your portfolio and would like to connect.\n\nBest,`,
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
