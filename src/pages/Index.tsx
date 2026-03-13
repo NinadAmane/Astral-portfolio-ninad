@@ -38,7 +38,7 @@ const PORTFOLIO_CONFIG = {
   email: "ninadamane@gmail.com", // Updated email
 
   // Profile Photo - Updated with your photo
-  profilePhoto: "Ninad Profile Photo Best_cropped.png", // Your uploaded photo
+  profilePhoto: "lovable-uploads/Ninad Profile Photo Best_cropped.png", // Your uploaded photo
 
   // Skills and Technologies - Customize this array with your skills
   skills: [
